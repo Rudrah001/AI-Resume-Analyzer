@@ -2,7 +2,7 @@
 
 An intelligent resume screening system that compares resumes against job descriptions using NLP, machine learning, and semantic analysis.
 
-![Demo](assets/AI resume analyzer.mp4)
+![Demo](assets/demo.gif)
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Django](https://img.shields.io/badge/Django-4.0+-green.svg)
