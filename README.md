@@ -11,18 +11,18 @@ An intelligent resume screening system that compares resumes against job descrip
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [System Architecture](#system-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Scoring Methodology](#scoring-methodology)
-- [Limitations](#limitations)
-- [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Features](#-features)
+- [System Architecture](#-system-architecture)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [How It Works](#-how-it-works)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Scoring Methodology](#-scoring-methodology)
+- [Limitations](#-limitations)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
 
 ---
 
