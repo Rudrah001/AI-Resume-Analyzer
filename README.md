@@ -461,7 +461,7 @@ Contributions are welcome! Here's how you can help:
 
 **Author**: Tushar 
 **Email**: rudrahpratap@gmail.com 
-**GitHub**: [@yourusername](https://github.com/yourusername)
+**GitHub**: https://github.com/Rudrah001
 
 ---
 
