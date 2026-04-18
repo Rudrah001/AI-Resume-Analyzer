@@ -23,7 +23,6 @@ An intelligent resume screening system that compares resumes against job descrip
 - [Limitations](#limitations)
 - [Future Improvements](#future-improvements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
