@@ -150,11 +150,12 @@ pip install -r requirements.txt
 **Requirements:**
 ```
 Django==6.0.4
-pdfplumber>=0.7.0
-sentence-transformers>=2.2.0
-scikit-learn>=1.0.0
-nltk>=3.7
-python-docx>=0.8.11
+nltk==3.9.4
+pdfplumber==0.11.9
+regex==2026.4.4
+scikit-learn==1.8.0
+sentence-transformers==5.4.1
+
 ```
 
 ### Step 4: Download NLTK Data
