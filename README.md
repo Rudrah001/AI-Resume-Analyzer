@@ -155,6 +155,7 @@ pdfplumber==0.11.9
 regex==2026.4.4
 scikit-learn==1.8.0
 sentence-transformers==5.4.1
+python-docx==1.2.0
 
 ```
 

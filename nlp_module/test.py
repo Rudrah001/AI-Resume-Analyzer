@@ -150,12 +150,16 @@ Good to Have:
 # score = sbert_similarity(resume,jd)
 # print(score)
 
-from nlp_module.analyzer import analyze_resume
-import time
-t1 = time.time()
+from analyzer_app.utils.text_extractor import extract_docx_text, extract_pdf_text
+from nlp_module.education import extract_education_section
+# import time
+# t1 = time.time()
 
-analyze = analyze_resume(resume,jd)
-print(analyze['final_score'],analyze['similarity_score'],analyze['similarity_details'],analyze['skill_score'],analyze['education_score'])
-print(analyze['skill_details'])
-print(analyze['education_details'])
-print(time.time()-t1)
+# analyze = analyze_resume(resume,jd)
+# print(analyze['final_score'],analyze['similarity_score'],analyze['similarity_details'],analyze['skill_score'],analyze['education_score'])
+# print(analyze['skill_details'])
+# print(analyze['education_details'])
+# print(time.time()-t1)
+
+text = extract_docx_text(r'D:\My\Resume\Tushar_Resume.docx')
+print(extract_education_section(text))

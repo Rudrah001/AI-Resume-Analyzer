@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from analyzer_app.utils.pdf_extractor import extract_pdf_text
+from analyzer_app.utils.text_extractor import extract_pdf_text, extract_docx_text
 from nlp_module.analyzer import analyze_resume
 
 # Create your views here.
@@ -14,7 +14,12 @@ def analyze(request):
         try:
             if 'resume_file' in request.FILES:
                 resume_file = request.FILES['resume_file']
-                resume_text = extract_pdf_text(resume_file)
+                if resume_file.name.endswith('.pdf'):
+                    resume_text = extract_pdf_text(resume_file)
+                elif resume_file.name.endswith('.docx'):
+                    resume_text = extract_docx_text(resume_file)
+                else:
+                    return JsonResponse({'error':'Unsupported File Format'},status=400)
             else:
                 resume_text = request.POST.get('resume_text','')
             
