@@ -18,7 +18,7 @@ def download_resources():
         except:
             nltk.download(name)
 
-# download_resources()
+download_resources()
 
 stopword = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
